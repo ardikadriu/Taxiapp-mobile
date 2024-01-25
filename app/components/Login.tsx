@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Login = () => {
   return (
-    <form className=" flex flex-col items-center w-full bg-[#FFB900] rounded-t-[30px] pb-[16px]">
+    <form className=" max-sm:flex max-sm:flex-col max-sm:items-center flex flex-col items-center w-full bg-[#FFB900] rounded-t-[30px] pb-[16px]">
       <h1 className="w-[334px] text-left ml-[27] font-Roboto font-bold text-[36px] mt-[40px]">
         Login
       </h1>
@@ -29,7 +29,7 @@ const Login = () => {
             <span className="font-medium hover:cursor-pointer ">Register</span>
           </Link>
         </h2>
-        <button className="bg-[black] w-[111px] h-[38px] text-[19px] font-medium text-white rounded-[10px]">
+        <button className="bg-black  px-8 py-2  text-[19px] font-medium text-white rounded-[10px]">
           Login
         </button>
       </div>

@@ -27,13 +27,13 @@ const Register = () => {
         className="bg-[#FFB900] border-[1px] w-[334px] h-[34px] rounded-[10px] border-black pl-[10px] outline-none hover:cursor-pointer "
       />
       <div className="font-roboto w-[334px] flex justify-between items-end mt-[63px] pb-[16px]">
-        <h2>
+        <h2 className="font-normal">
           Already Member?{" "}
           <Link href={"Login"}>
             <span className=" font-medium hover:cursor-pointer ">Login</span>
           </Link>
         </h2>
-        <button className="bg-[black] w-[111px] h-[38px] text-[19px] font-medium text-white rounded-[10px]">
+        <button className="bg-black px-6 py-2 text-[19px] font-medium text-white rounded-[10px]">
           Register
         </button>
       </div>
