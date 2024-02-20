@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Login = () => {
   return (
-    <form className=" max-sm:flex max-sm:flex-col max-sm:items-center flex flex-col items-center w-full bg-[#FFB900] rounded-t-[30px] pb-[16px]">
-      <h1 className="w-[334px] text-left ml-[27] font-Roboto font-bold text-[36px] mt-[40px]">
+    <form className=" max-sm:flex max-sm:flex-col max-sm:items-center flex flex-col items-center w-full bg-[#FFB900] rounded-t-[30px] pb-[86px]">
+      <h1 className="w-[334px] text-left ml-[27] font-Roboto font-bold text-[36px] mt-[60px]">
         Login
       </h1>
       <label className="w-[334px] text-left mt-[16px] mb-[5px]">Email</label>

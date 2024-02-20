@@ -3,9 +3,9 @@ import Taxi from "@/public/Taxi.png";
 
 const Imageregister = () => {
   return (
-    <div className=" max-sm:flex max-sm:flex-col max-sm:items-center flex flex-col items-center mb-[63px]">
+    <div className=" max-sm:flex max-sm:flex-col max-sm:items-center flex flex-col items-center mb-[123px]">
       <Image
-        className="mt-[104px]"
+        className="mt-[104px]  "
         src={Taxi}
         width={93}
         height={77}

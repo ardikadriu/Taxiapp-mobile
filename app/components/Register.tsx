@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Register = () => {
   return (
-    <form className="w-full rounded-t-[30px] bg-[#FFB900] flex flex-col items-center font-Roboto">
+    <form className="max-sm:w-full w-full rounded-t-[30px] bg-[#FFB900] flex flex-col items-center font-Roboto max-sm:flex max-sm:flex-col max-sm:items-center max-sm:pb-16 ">
       <h1 className="w-[334px] text-left text-[34px] font-bold mt-[41px] mb-[31px]">
         Register
       </h1>
